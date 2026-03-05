@@ -1,0 +1,192 @@
+
+*{ margin:0; padding:0;}
+
+body{
+  width:1440px;
+  margin:0 auto;
+  background:#fff;
+}
+
+
+.mypage{
+  width:1440px;
+  height:804px;
+  background:#fff;
+}
+
+
+.wrap{
+  width:1440px;
+  height:804px;
+  padding:0 50px;
+  display:flex;
+  gap:40px;
+  align-items:flex-start;
+}
+
+
+.sidebar{
+  width:350px;
+  height:804px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.side-menu{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+}
+
+.side-link{
+  display:block;
+  height:72px;
+  line-height:72px;
+  text-align:center;
+  text-decoration:none;
+  color:#F47C2A;
+  font-weight:700;
+  font-size:24px;
+  border-bottom:1px solid #F47C2A;
+}
+
+
+
+.content{
+  width:1000px;
+  height:804px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.content-box{
+  width:1000px;
+  height:760px;
+  border:2px solid #F47C2A;
+  display:flex;
+  gap:20px;
+  background:#fff;
+
+
+  margin:0;
+}
+
+
+.panel{
+  height:760px;
+  background:#fff;
+  display:flex;
+  flex-direction:column;
+}
+
+.panel-left{
+  width:600px;
+  border-right:2px solid #F47C2A;
+}
+
+.panel-right{
+  width:400px;
+}
+
+
+.panel-head{
+  height:78px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#FFE8DB;
+  border-bottom:2px solid #F47C2A;
+}
+
+.panel-title{
+  font-size:24px;
+  font-weight:800;
+  color:#111;
+}
+
+
+.panel-body{
+  flex:1;
+  padding:22px 24px;
+  display:flex;
+  flex-direction:column;
+  height: 580px;
+  border-bottom: 2px solid #F47C2A;
+}
+
+
+.match-list{
+  list-style:none;
+  display:flex;
+  flex-direction:column;
+  margin-top:10px;
+}
+
+.match-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height: 96px;
+}
+
+.match-title, .match-date{
+  font-size:24px;
+  font-weight:700;
+  color:#111;
+}
+
+.match-title{ width:70%; }
+.match-date{ width:30%; text-align:right; }
+
+
+.info-table{
+  display:flex;
+  flex-direction:column;
+  gap:22px;
+  margin-top:14px;
+}
+
+.info-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  min-height:42px;
+}
+
+.info-row dt{
+  width:42%;
+  font-size: 24px;
+  font-weight:800;
+  color:#111;
+}
+
+.info-row dd{
+  width:58%;
+  font-size: 24px;
+  font-weight:700;
+  color:#111;
+}
+
+
+.panel-footer{
+  margin-top:auto;
+  display:flex;
+  justify-content:flex-end;
+  padding-top:10px;
+  background:transparent;
+}
+
+.btn-outline{
+  width:150px;
+  height:56px;
+  border:2px solid #F47C2A;
+  background:#fff;
+  color:#F47C2A;
+  font-weight:800;
+  font-size: 15px;
+  border-radius:10px;
+  cursor:pointer;
+}
