@@ -1,3 +1,6 @@
+/* 
+=============== 공통 변경 css ===============
+*/
 @font-face {
   font-family: "HannaPro";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff")
@@ -36,7 +39,7 @@ ul {
   border-right: 3px solid #f47c2a;
   display: flex;
   flex-direction: column;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .admin-sidebar-header {
@@ -120,4 +123,28 @@ ul {
 }
 /* 
 =============== 사이드바 ===============
+*/
+
+/* 
+=============== 공통 메인 섹션 ===============
+*/
+.admin-main-container {
+  display: flex;
+}
+.admin-main-section {
+  width: 100%;
+  padding: 0 40px;
+  height: 100vh;
+}
+
+.admin-main-section-header {
+  height: 170px;
+}
+.admin-title {
+  font-size: 24px;
+  padding: 35px 0;
+  font-family: "HannaPro";
+}
+/* 
+=============== 공통 메인 섹션 ===============
 */
